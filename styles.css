@@ -1,8 +1,30 @@
-.header-nav {
+body {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+.nav-bar {
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
 }
 
-.header-nav ul {
+.nav-list {
     display: flex;
+}
+
+.nav-list li {
+    text-decoration: none;
+    padding: 20px;
+    list-style-type: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-logo {
+    margin-left: 50px;
+    font-size: 24px;
+    color: #F9FAF8;
 }
